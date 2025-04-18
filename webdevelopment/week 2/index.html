@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Introducion To web Developemnt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Introducion To web Developemnt</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Ordered List with Roman Numerals-->
+        <section>
+            <h2></h2>
+            <ol type="I">
+                <li>Web Design</li>
+                <li>Web Development</li>
+                <li>Database Management</li>
+                <li>Mobile App Development</li>
+                <li>E-commerce Development</li>
+            </ol>
+        </section>
+        <!-- External Image -->
+        <section>
+            <h2>Programming Concept</h2>
+        <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="Programming Code on Screen" width="600">
+        </section>
+
+        <!--Contacts Table -->
+        <section>
+            <h2>Contact Information</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Nmae</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meshack</td>
+                    <td>meshack@example.com</td>
+                    <td>123-456-7890</td>
+                    <td>123 Main Street</td>
+                </tr>
+                <tr>
+                    <td>Grace</td>
+                    <td>grace@example.com</td>
+                    <td>123-456-7890</td>
+                    <td>123 Main Street</td>
+                </tr>
+                <tr>
+                    <td>Michael</td>
+                    <td>michael@example.com</td>
+                    <td>123-456-7890</td>
+                    <td>123 Main Street</td>
+
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>123-456-7890</td>
+                    <td>123 Main Street</td>
+                </tr>
+            </tbody>
+            </table>
+        </section>
+
+        <!--Registaration Form-->
+        <h2>Registration Form</h2>
+        <form action="#" method="POST"></form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name"  name="name" placeholder="Enter Your Full Name" required>
+        <br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        <br>
+
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required> Male 
+        <input type="radio" id="female" name="gender" value="female" required> female
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br>
+
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="coding"> Coding
+        <input type="checkbox" name="interests" value="music"> Music
+        <input type="checkbox" name="interests" value="sports"> Sports
+        <br>
+        
+        <button type="submit">Register</button>
+    </form>
+</section>
+ <!-- Audio and Video -->
+ <section>
+    <h2>Multimedia</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h3>Video</h3>
+    <video width="600" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+    </body>
+    </html>
